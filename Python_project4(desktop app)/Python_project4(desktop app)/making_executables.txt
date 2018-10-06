@@ -1,0 +1,12 @@
+To create an executable program in python:
+1)install pythoninstaller
+2)point pythoninstaller to the mainscript.ie. pythoninstaller desktop-app
+3)if you just want a single file without all th other files included for troubleshooting add --onefile
+4)you would also want to include --windowed  ,as without it you will get a terminal, a command line running in the background with you GUI
+
+In all it would look like this
+
+pyinstaller --onefile --windowed mainscript.py
+
+you can now share this program to anyone. If it invovles the use of current db, just send the db file along
+with the executable file to the person.
