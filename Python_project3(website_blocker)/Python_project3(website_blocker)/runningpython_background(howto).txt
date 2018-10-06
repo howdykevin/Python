@@ -1,0 +1,22 @@
+#running a python in the background
+
+1) Change the python file extension from .py to .pyw
+
+2) Make sure the path to files are accurate. You need to pass in the long from "C://...." instead of "filename" even if the file is in the 
+same directory as python script
+
+3)Go to task scheduler, create a task.Configure for the operating system you are using. Mine is windows10. Check the option for running
+with highest privilege so that you can access administration rights. Since you are changing the hosts file, you need to run as an administrator
+
+4)Choose the trigger.(when do you want to run the python program.At startup etc
+
+5)Choose the action tab. Choose the python program you want to run in the background.
+
+6)go to settings and unchecked the battery settung so that you can run the program even when laptop is in battery mode
+
+7)Done. now you can search for the task and run it manually/ restart your computer so that the program runs on startup
+
+#Alternatively, if you want to just run and see whether python program is running in background
+#without the need for administration right,
+
+-> you can just double click on the python program
